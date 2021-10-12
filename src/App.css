@@ -10,13 +10,27 @@ html{
 
 .container {
   width: 80%;
-  height: 80vh;
+  min-height: 70rem;
   display: flex;
   gap: 2rem;
   flex-direction: column;
   max-width: 500px;
   margin: 3rem auto;
   background-image: url(/src/bg.jpg);
+  background-size: cover;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+}
+
+.hot {
+  width: 80%;
+  height: 80vh;
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 3rem auto;
+  background-image: url(/src/hot.jpg);
   background-size: cover;
   color: white;
   text-shadow: 2px 2px 2px black;
@@ -66,13 +80,15 @@ input{
 .forecast_days{
   text-align: center;
   font-size: 2rem;
+  margin-top: 15rem;
+  margin-bottom: -8rem;
 }
 
 .forecast {
   display: flex;
   justify-content: space-between;
   align-content: center;
-  padding: 2rem;
+  padding: 3rem;
 }
 
 .forecast_temp {
